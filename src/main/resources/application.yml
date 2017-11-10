@@ -14,12 +14,12 @@ spring:
       pool-prepared-statements: false
       max-open-prepared-statements: -1
       ucenter:
-        url: jdbc:mysql://172.20.100.11:3306/wdw?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
-        username: uatwdw
-        password: UATwdw123!
+        url: jdbc:mysql://127.0.0.1:3306/u1?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+        username: admin
+        password: admin
       ucore:
-        url: jdbc:mysql://172.20.100.11:3306/ucenter?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
-        username: uatucenter
-        password: UATucenter123!
+        url: jdbc:mysql://127.0.0.1:3306/u2?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+        username: admin
+        password: admin
 server:
   port: 8082
